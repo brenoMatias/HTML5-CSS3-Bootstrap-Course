@@ -1,0 +1,24 @@
+h1 {
+    color:aquamarine;
+}
+
+.navbar {
+    color: blue;
+}
+
+.header2 {
+    color:aquamarine
+}
+
+.footer {
+    background-color: bisque;
+}
+
+.header {
+    background-color: azure;
+}
+
+.aside {
+    margin-left: 100px;
+    background-color: antiquewhite;
+}
