@@ -46,7 +46,7 @@ main {
    text-align: center;
    padding-top: 10px;
    padding-bottom: 10px;
-   background-color: aqua;
+   background-color: rgba(0, 0, 1, 0.212);
 }
 
 h1 {
