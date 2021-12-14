@@ -14,9 +14,6 @@ main {
     padding-top: 80px;
     padding-right: 240px;
     padding-left: 240px;
-    margin-top: 80px;
-
-  
 }
 
 .header2 {
@@ -27,7 +24,6 @@ main {
     background-color: bisque;
     height: 30px;
     width: 1024px;
-    padding-top: 40px;
     text-align: center;
 }
 
@@ -38,11 +34,11 @@ main {
     text-align: center;
 } 
 
-.aside {
-    margin-left: 600px;
-    background-color: antiquewhite;
-    width: 400px;
-    height:200px;
+.navbar {
+   text-align: center;
+   padding-top: 10px;
+   padding-bottom: 10px;
+   background-color: aqua;
 }
 
 h1 {
@@ -54,4 +50,11 @@ h1 {
 
 p {
     font-size: 20px;
+}
+
+a {
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    /* text-decoration: none; */
 }
