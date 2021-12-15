@@ -23,4 +23,28 @@ main {
 .cards {
     background-color: rgb(126, 128, 0);
     min-height: 200px;
+    display: flex;
+}
+
+.card1 {
+    background-color: black;
+    min-height: 300px;
+    width: 33.3%;
+}
+
+.card1 {
+    background-color: black;
+    min-height: 300px;
+    width: 33.3%;
+}
+.card2 {
+    background-color: rgb(226, 36, 36);
+    min-height: 300px;
+    width: 33.3%;
+}
+
+.card3 {
+    background-color: rgb(38, 35, 211);
+    min-height: 300px;
+    width: 33.3%;
 }
