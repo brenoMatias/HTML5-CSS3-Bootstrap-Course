@@ -1,6 +1,9 @@
+body {
+    background-color: #FC5E55;
+}
 .container {
     width: 1024px;
-    background-color: aqua;
+    background-color: #FC5E55;
     min-height: 300px;
     margin-left: auto;
     margin-right: auto;
@@ -10,9 +13,17 @@
 bigger if the content needs it */
 /* It prevents the used value of the height property from becoming smaller than the value specified for min-height */
 
+
+.mainHeader {
+    display: flex;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
 header {
-    background-color: green;
     min-height: 100px;
+    justify-content: space-between;
+    align-items: center;
 }
 
 main {
@@ -60,3 +71,4 @@ main {
 
 /*** heroes= flex of child only works if the flex display
 in is active in the parent node too*/
+
