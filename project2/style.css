@@ -4,6 +4,7 @@ html {
 
 body {
     background-image: linear-gradient(#FC5E55, #FA4083);
+    color: rgb(252, 244, 244);
 }
 
 /* https://www.grabient.com/ 
@@ -14,6 +15,9 @@ gradients*/
     min-height: 300px;
     margin-left: auto;
     margin-right: auto;
+    font-family: 'Bakbak One', cursive;
+    font-size: 1.5rem;
+
 }
 
 /* min-hight: min you can go bu it can get 
@@ -65,6 +69,7 @@ main {
 }
 
 .herobox1 {
+    /* font-family: 'Bakbak One', cursive; */
     width: 50%;
     min-height: 30px;
     flex: 2;    
@@ -79,3 +84,10 @@ main {
 /*** heroes= flex of child only works if the flex display
 in is active in the parent node too*/
 
+.herobox1 h1 {
+    font-size: 2em;
+}
+
+.navLinks {
+    font-size: 0.75em;
+}
