@@ -1,9 +1,16 @@
-body {
-    background-color: #FC5E55;
+html {
+    height: 100%;
 }
+
+body {
+    background-image: linear-gradient(#FC5E55, #FA4083);
+}
+
+/* https://www.grabient.com/ 
+gradients*/
+
 .container {
     width: 1024px;
-    background-color: #FC5E55;
     min-height: 300px;
     margin-left: auto;
     margin-right: auto;
