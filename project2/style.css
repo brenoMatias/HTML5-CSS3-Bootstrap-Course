@@ -18,33 +18,48 @@ header {
 main {
     background-color: rgb(128, 0, 6);
     min-height: 300px;
+    display: flex;
 }
 
 .cards {
     background-color: rgb(126, 128, 0);
     min-height: 200px;
     display: flex;
+    justify-content: space-between;
 }
+
 
 .card1 {
     background-color: black;
     min-height: 300px;
-    width: 33.3%;
-}
-
-.card1 {
-    background-color: black;
-    min-height: 300px;
-    width: 33.3%;
+    width: 30%;
 }
 .card2 {
     background-color: rgb(226, 36, 36);
     min-height: 300px;
-    width: 33.3%;
+    width: 30%;
 }
 
 .card3 {
     background-color: rgb(38, 35, 211);
     min-height: 300px;
-    width: 33.3%;
+    width: 30%;
 }
+
+.herobox1 {
+    width: 50%;
+    background-color: blueviolet;
+    min-height: 30px;
+    flex: 2;
+
+}
+
+.herobox2 {
+    width: 50%;
+    background-color: aqua;
+    min-height: 30px;
+    flex: 1;
+}
+
+/*** heroes= flex of child only works if the flex display
+in is active in the parent node too*/
