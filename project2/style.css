@@ -122,7 +122,7 @@ h1 {
     
 }
 
-.herobox1 .myButton {
+.myButton {
     font-family:'Courier New', Courier, monospace;
     color:#FA4083;
     text-decoration: none;
@@ -154,4 +154,9 @@ h1 {
 .cards a {
     color: white;
     text-decoration: none;
+}
+
+nav a.myButton {
+    margin-left: 30px;
+    box-shadow: 1px 1px 1px 1px black;
 }
