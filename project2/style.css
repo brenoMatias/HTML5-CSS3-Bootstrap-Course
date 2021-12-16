@@ -116,5 +116,9 @@ in is active in the parent node too*/
     padding-top: 0.5em;
 }
 
+.cards i {
+    font-size: 100px;
+    padding-top: 30px;
+}
 
 /* justify-content and align-items are similar in their behviour, the difference being that justify-content works on the the main axis while align-items works on the cross axis */
