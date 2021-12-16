@@ -88,6 +88,7 @@ main {
     padding: 30px 30px 30px 30px;
     box-sizing: border-box;
     border-radius: 40px;
+    box-shadow: 1px 1px 5px rgb(233, 224, 224);
 }
 
 .herobox1 {
@@ -110,9 +111,15 @@ main {
 /*** heroes= flex of child only works if the flex display
 in is active in the parent node too*/
 
+
+h1 {
+    text-shadow: 0px 3px 3px black;
+
+}
+
 .herobox1 h1 {
     font-size: 2em;
-    padding-bottom: 0.5em;
+    
 }
 
 .herobox1 .myButton {
@@ -124,6 +131,7 @@ in is active in the parent node too*/
     display: inline-block;
     margin-top: 10px;
     border-radius: 10px 10px 40px 0px;
+    box-shadow: 10px 10px 10px black;
 }
 
 .navLinks {
