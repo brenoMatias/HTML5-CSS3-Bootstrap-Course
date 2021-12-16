@@ -47,6 +47,7 @@ main {
     display: flex;
     justify-content: space-between;
     text-align: center;
+    padding-top: 20px;
 }
 
 .card1 {
@@ -86,9 +87,8 @@ main {
 .card1, .card2, .card3 {
     padding: 30px 30px 30px 30px;
     box-sizing: border-box;
+    border-radius: 40px;
 }
-
-
 
 .herobox1 {
     /* font-family: 'Bakbak One', cursive; */
@@ -103,6 +103,10 @@ main {
     flex: 1;
 }
 
+.herobox2 img {
+    border-radius: 10px;
+}
+
 /*** heroes= flex of child only works if the flex display
 in is active in the parent node too*/
 
@@ -111,7 +115,7 @@ in is active in the parent node too*/
     padding-bottom: 0.5em;
 }
 
-.herobox1 a {
+.herobox1 .myButton {
     font-family:'Courier New', Courier, monospace;
     color:#FA4083;
     text-decoration: none;
@@ -119,6 +123,7 @@ in is active in the parent node too*/
     padding: 11px 25px;
     display: inline-block;
     margin-top: 10px;
+    border-radius: 10px 10px 40px 0px;
 }
 
 .navLinks {
