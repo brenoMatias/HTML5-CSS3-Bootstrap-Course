@@ -94,7 +94,7 @@ in is active in the parent node too*/
 }
 
 .cards h2 {
-    font-size: 2em;
+    font-size: 1.9em;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     margin-top: 20px;
 }
@@ -122,3 +122,8 @@ in is active in the parent node too*/
 }
 
 /* justify-content and align-items are similar in their behviour, the difference being that justify-content works on the the main axis while align-items works on the cross axis */
+
+.cards a {
+    color: white;
+    text-decoration: none;
+}
