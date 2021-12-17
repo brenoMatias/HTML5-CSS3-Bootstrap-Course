@@ -3,6 +3,8 @@
 body {
     margin: 0;
     font-family: 'Asap', sans-serif;
+    color: rgb(250, 248, 248);
+    background-color: black;
 }
 
 .container {
@@ -13,6 +15,35 @@ body {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+}
+
+.header-container {
+    background-color: gray;
+    height: 50px;
+    min-height: 100px;
+    margin-bottom: 60px;
+}
+
+header {
+    max-width: 1024px;
+    /* background-color: aqua; */
+    min-height: 100px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+    color: #fcf3f3;
+    padding: 20px 20px;
+    border: 1px solid white;
+    margin-left: 10px;
+}
+
+header .logo {
+    font-size: 2em;
 }
 
 .col {
@@ -66,4 +97,18 @@ body {
 
 .col p::first-line {
     font-weight: bold;
+}
+
+.footer-container {
+    background-color: gray;
+    height: 50px;
+    min-height: 100px;
+    margin-bottom: 60px;
+}
+
+footer {
+    max-width: 1024px;
+    background-color: aqua;
+    min-height: 100px;
+    margin: 0 auto;
 }
