@@ -1,19 +1,36 @@
 /* Global View aka Desktop View */
 
-
-h1 {
-    color: limegreen;
+body {
+    margin: 0;
 }
 
+.container {
+    background-color: aquamarine;
+    min-height: 100px;
+    max-width: 1024px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
 
-
+.col {
+    background-color: rgb(201, 120, 15);
+    min-height: 200px;
+    width: 30%;
+    margin-bottom: 30px;
+}
 
 
 
 /* Tablet View */
 @media (max-width: 768px){
     
-h1 {color: darkorange;}
+    .col {
+        width: 45%;
+    }
+    
+
 
 }
 
@@ -22,10 +39,5 @@ h1 {color: darkorange;}
 /* Mobile View */
 @media (max-width: 600px){
     
-    h1 {color: black;
-    font-family: 'Courier New', Courier, monospace;
-
-    }
-
     
 }
