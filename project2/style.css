@@ -69,7 +69,7 @@ main {
 }
 
 .main2 h1 {
-    font-size: 1.5em;
+    font-size: 2.5em;
     padding-bottom: 40px;
 }
 
@@ -278,4 +278,24 @@ hover is a state */
 
 .dropdown-box .navbutton a {
     color: black;
+}
+
+
+/* css about us page */
+#name, #email {
+    padding-top: 10px;
+    font-size: 1em;
+    margin-top: 30px;
+}
+
+#submit {
+    min-height: 30px;
+}
+
+.inputwrapper {
+    margin-top: -10px;
+}
+
+form {
+    margin-top: 50px;
 }
