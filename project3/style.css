@@ -8,13 +8,14 @@ body {
 }
 
 .container {
-    background-color: rgb(247, 252, 250);
+    background-color: rgb(1, 15, 9);
     min-height: 100px;
     max-width: 1024px;
     margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    padding-top: 150px;
 }
 
 .header-container {
@@ -22,6 +23,9 @@ body {
     height: 50px;
     min-height: 100px;
     margin-bottom: 60px;
+    position: fixed;
+    width: 100%;
+   
 }
 
 header {
@@ -32,6 +36,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+  
 }
 
 a {
