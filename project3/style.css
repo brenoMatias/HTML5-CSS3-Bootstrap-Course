@@ -1,3 +1,31 @@
+/* Global View aka Desktop View */
+
+
 h1 {
-    color: blueviolet;
+    color: limegreen;
+}
+
+
+
+
+
+
+/* Tablet View */
+@media (max-width: 768px){
+    
+h1 {color: darkorange;}
+
+}
+
+
+
+/* Mobile View */
+@media (max-width: 600px){
+    
+    h1 {color: black;
+    font-family: 'Courier New', Courier, monospace;
+
+    }
+
+    
 }
