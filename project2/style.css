@@ -270,7 +270,6 @@ hover is a state */
 
 }
 
-
 .dropdown-box .navbutton:hover {
     background-color: rgb(216, 29, 204);
     transition-duration: 5s;
@@ -282,18 +281,13 @@ hover is a state */
 
 
 /* css about us page */
-#name, #email {
-    padding-top: 10px;
-    font-size: 1em;
-    margin-top: 30px;
-}
 
 #submit {
     min-height: 30px;
 }
 
 .inputwrapper {
-    margin-top: -10px;
+    margin-top: 0px;
 }
 
 form {
@@ -310,4 +304,21 @@ form textarea {
 
 .inputwrapper p {
     margin-top: 40px;
+}
+
+
+input[type=text], input[type=email], textarea {
+    padding: 12px 20px;
+    width: 100%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 0.85em;
+    box-sizing: border-box;
+
+}
+
+.newline {
+     display: block;
+     margin-bottom: 10px;
+     margin-top: 30px;
+
 }
