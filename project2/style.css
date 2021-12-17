@@ -4,9 +4,17 @@
 
 /* height 100% so quando a tela for muito pequena */
 
+
+html {
+    background-image: linear-gradient(#FC5E55, #FA4083) ;
+}
+
 body {
-    background-image: linear-gradient(#FC5E55, #FA4083);
+    background-image: url(images/image-lion-background.png);
+    background-position: top center;
+    background-repeat: no-repeat;
     color: rgb(252, 244, 244);
+    font-size: 1.25em;
 }
 
 /* https://www.grabient.com/ 
@@ -52,6 +60,17 @@ main {
     min-height: 300px;
     display: flex;
     align-items: center;
+}
+
+.main2 {
+    min-height: 300px;
+    padding-top: 50px;
+    align-items: center;
+}
+
+.main2 h1 {
+    font-size: 1.5em;
+    padding-bottom: 40px;
 }
 
 .cards {
