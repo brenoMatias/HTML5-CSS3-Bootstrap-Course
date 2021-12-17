@@ -307,3 +307,9 @@ form textarea {
 #email-sub {
     margin-top: 30px;
 }
+
+.inputwrapper p {
+    margin-top: 40px;
+}
+
+#phone, #email 
