@@ -2,10 +2,11 @@
 
 body {
     margin: 0;
+    font-family: 'Asap', sans-serif;
 }
 
 .container {
-    background-color: aquamarine;
+    background-color: rgb(247, 252, 250);
     min-height: 100px;
     max-width: 1024px;
     margin: 0 auto;
@@ -15,16 +16,26 @@ body {
 }
 
 .col {
-    background-color: rgb(201, 120, 15);
-    min-height: 200px;
     width: 30%;
     margin-bottom: 30px;
+    background-color: aqua;
 }
 
-
+.col p {
+    color:rgb(7, 0, 0);
+    font-size: 0.875em;
+    padding: 20px 20px;
+    line-height: 1.5em;
+}
 
 .hide-desktop-only {
     display: none;
+}
+
+
+.col img {
+    width:100%;
+    height: auto;
 }
 
 /* Tablet View */
@@ -48,8 +59,11 @@ body {
     } 
 
     .hide-desktop-only {
-        display: none;
+        display: block;
     }
 }
 
 
+.col p::first-line {
+    font-weight: bold;
+}
