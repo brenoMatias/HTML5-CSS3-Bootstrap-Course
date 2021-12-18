@@ -38,7 +38,7 @@ header {
   
 }
 
-a {
+nav a {
     text-decoration: none;
     color: #fcf3f3;
     padding: 20px 20px;
@@ -130,7 +130,7 @@ footer {
     nav  {
         display: none;
     }
-    /* burger menu */
+    /* burger menu, tira o nav do header quando diminui */
 
     .logo {
         padding: 40px 0;
@@ -138,13 +138,21 @@ footer {
 
     .mob-wrapper {
         display: block;
+        padding-right: 30px;
     }
     
     .mob-nav {
         display: none;
     }
+
+    .navButton {
+        display: block;
+        text-decoration: none;
+        color: white;
+    }
 }
 
+/* i stopped ate min 16:05 */
 
 
 
