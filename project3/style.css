@@ -1,5 +1,4 @@
 /* Global View aka Desktop View */
-
 body {
     margin: 0;
     font-family: 'Asap', sans-serif;
@@ -8,7 +7,7 @@ body {
 }
 
 .container {
-    background-color: rgb(1, 15, 9);
+    background-color: rgba(2, 2, 2, 0.521);
     min-height: 100px;
     max-width: 1024px;
     margin: 0 auto;
@@ -19,7 +18,7 @@ body {
 }
 
 .header-container {
-    background-color: gray;
+    background-color:gray;
     height: 50px;
     min-height: 100px;
     margin-bottom: 60px;
@@ -74,32 +73,6 @@ header .logo {
     height: auto;
 }
 
-/* Tablet View */
-@media (max-width: 768px){
-    
-    .col {
-        width: 45%;
-    }
-    .hide-desktop-only {
-        display: block;
-    }
-}
-
-
-
-/* Mobile View */
-@media (max-width: 400px){
-    
-    .col {
-        width: 100%;
-    } 
-
-    .hide-desktop-only {
-        display: block;
-    }
-}
-
-
 .col p::first-line {
     font-weight: bold;
 }
@@ -117,3 +90,81 @@ footer {
     min-height: 100px;
     margin: 0 auto;
 }
+
+.mob-wrapper {
+    color: white;
+}
+
+.burger-menu {
+    width: 48px;
+}
+/* tiver que colocar essa width para a aparecer a imagem */
+
+.mob-wrapper {
+    display: none;
+}
+/* sandwich menu out of desktop */
+
+
+
+
+/* Tablet View */
+@media (max-width: 768px){
+    
+    .col {
+        width: 45%;
+    }
+
+    .hide-desktop-only {
+        display: block;
+    }
+
+    .container {
+        padding-top: 40px;
+    }
+
+    .header-container {
+        position: relative;
+    }
+
+    nav  {
+        display: none;
+    }
+    /* burger menu */
+
+    .logo {
+        padding: 40px 0;
+    }
+
+    .mob-wrapper {
+        display: block;
+    }
+    
+    .mob-nav {
+        display: none;
+    }
+}
+
+
+
+
+
+/* Mobile View */
+@media (max-width: 400px){
+    
+    .col {
+        width: 100%;
+    } 
+
+    .hide-desktop-only {
+        display: block;
+    }
+
+    .header-container {
+        position: relative;
+    }
+    
+}
+
+
+
