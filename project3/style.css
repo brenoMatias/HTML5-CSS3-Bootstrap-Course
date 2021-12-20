@@ -6,7 +6,7 @@ body {
     background-color: black;
 }
 
-.container {
+.box-container {
     background-color: rgba(2, 2, 2, 0.521);
     min-height: 100px;
     max-width: 1024px;
@@ -110,6 +110,11 @@ footer {
 
 /* Tablet View */
 @media (max-width: 768px){
+
+    header .logo {
+        font-size: 1.6em;
+    }
+    
     
     .col {
         width: 45%;
@@ -119,22 +124,18 @@ footer {
         display: block;
     }
 
-    .container {
+    .box-container {
         padding-top: 40px;
     }
-
+ 
     .header-container {
         position: relative;
     }
-
+ 
     nav  {
         display: none;
     }
     /* burger menu, tira o nav do header quando diminui */
-
-    .logo {
-        padding: 40px 0;
-    }
 
     .mob-wrapper {
         display: block;
@@ -143,12 +144,19 @@ footer {
     
     .mob-nav {
         display: none;
+        position: absolute;
+        padding-top: 10px;
     }
 
     .navButton {
         display: block;
         text-decoration: none;
+        margin-left: -60px;
+        padding: 15px 30px;
         color: white;
+        background-color: coral;
+        border: 1px solid white;
+        text-align: center;
     }
 }
 
