@@ -6,6 +6,7 @@ body {
 
 h1 {
     font-family: 'Abril Fatface', cursive;
+    font-size: 4.3em;
 }
 
 .container {
@@ -16,7 +17,7 @@ h1 {
 }
 
 .jumbotron {
-    background-color: white;
+    /* background-color: rgba(252, 252, 252, 0.932); */
     padding: 30px 30px;
     justify-content: center;
 }
@@ -24,4 +25,14 @@ h1 {
 .navbar-brand {
     background-color: blue;
     width: 1024px;
+}
+
+
+.drop-shadow {
+    text-shadow: 0px 3px 2px black;
+}
+
+.lead {
+    color: white;
+    font-size: 2.2em;
 }
