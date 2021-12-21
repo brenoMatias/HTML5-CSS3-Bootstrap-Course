@@ -12,12 +12,21 @@
     <link rel="stylesheet" href="style.css">
 
 
+
 </head>
 <body>
     <div class="container">
             <!-- Navigation -->
             <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                    <a class="navbar-brand" href="#">Navbar</a>
+              
+                <nav class="navbar navbar-light bg-light">
+                  <div class="container">
+                    <a class="navbar-brand" href="#">
+                      <img src="images/logo-dans-meat-yogurt.svg" alt="" >
+                    </a>
+                  </div>
+                </nav>
+                    
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                       <span class="navbar-toggler-icon"></span>
                     </button>         
@@ -46,9 +55,23 @@
                         </li>
                       </ul>
                     </div>
+
+
+                    <!-- Close navbar extends -->
+
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                      <ul class="navbar-nav mr-auto">
+                        <li class="nav-item classa"  data-toggle="collapse" data-target=".navbar-collapse.show">
+                          <a class="nav-link" routerLink="/inicio" routerLinkActive="active" >x</a>
+                        </li>
+                      </ul>
+                    </div>
+
                   </nav>
 
 
+
+                
                   <!-- Jumbotron -->
 
                   <div class="jumbotron">
@@ -132,6 +155,10 @@
 
 
     </div>
+
+
+    <script src="nav.js"></script>
+    <!-- hide burger nav menu -->
 
     <!-- This is the Bootstrap JS -->
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
