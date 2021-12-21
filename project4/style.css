@@ -60,3 +60,8 @@ h1 {
 .carousel {
     margin-bottom: 100px;
 }
+
+.btn-primary .btn-primary:hover {
+    background-color: aqua;
+    border-color:#00BBC9
+}
