@@ -28,7 +28,7 @@ h1 {
 
 
 .btn-outline-light:hover {
-    background-color: rgba(255, 255, 255, 0.201);
+    background-color: rgba(209, 24, 24, 0.781);
 }
 
 
@@ -36,11 +36,18 @@ h1 {
     display: none;
 }
 
-@media (max-width: 780px){
+@media (max-width: 630px){
 
      .classa {
         display: block;
     }
+
+    .link {
+        width: 100px;
+    }
+      
 }
 
-
+.link {
+   margin-right: 100px;
+}
