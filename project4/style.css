@@ -53,6 +53,10 @@ h1 {
 }
 
 .link2 {
-    margin-right: -150px;
+    margin-right: -50px;
     margin-top: -20px;
+}
+
+.carousel {
+    margin-bottom: 100px;
 }
