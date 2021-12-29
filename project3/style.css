@@ -1,167 +1,142 @@
 /* Global View aka Desktop View */
+
 body {
-    margin: 0;
     font-family: 'Asap', sans-serif;
-    color: rgb(250, 248, 248);
-    background-color: black;
+    color: white;
+    background-color: #EBEBEB;
 }
 
-.box-container {
-    background-color: rgba(2, 2, 2, 0.521);
-    min-height: 100px;
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.container {
+    min-height: 500px;
     max-width: 1024px;
     margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    padding-top: 150px;
+    padding-top: 140px;
 }
 
 .header-container {
-    background-color:gray;
-    height: 50px;
+    background-color: rgb(60, 60, 60);
     min-height: 100px;
-    margin-bottom: 60px;
     position: fixed;
     width: 100%;
-   
 }
 
 header {
     max-width: 1024px;
-    /* background-color: aqua; */
+    /* background-color: blueviolet; */
     min-height: 100px;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
-  
-}
-
-nav a {
-    text-decoration: none;
-    color: #fcf3f3;
-    padding: 20px 20px;
-    border: 1px solid white;
-    margin-left: 10px;
-}
-
-header .logo {
-    font-size: 2em;
 }
 
 .col {
     width: 30%;
-    margin-bottom: 30px;
-    background-color: aqua;
+    margin-bottom: 40px;
+    background-color: rgb(43, 226, 147);
 }
 
 .col p {
-    color:rgb(7, 0, 0);
-    font-size: 0.875em;
-    padding: 20px 20px;
-    line-height: 1.5em;
-}
+    font-size: 0.825rem;
+    padding: 20px 25px;
+    line-height: 1.25rem;
+}  
 
 .hide-desktop-only {
     display: none;
 }
 
-
 .col img {
-    width:100%;
+    width: 100%;
     height: auto;
-}
+} 
 
 .col p::first-line {
-    font-weight: bold;
+    font-weight: 700;
 }
 
-.footer-container {
-    background-color: gray;
-    height: 50px;
-    min-height: 100px;
-    margin-bottom: 60px;
+.mybutton {
+    padding: 10px 25px;
+    border-style: solid;
+    border-width: 1px;
+    margin-left: 20px;
 }
 
-footer {
-    max-width: 1024px;
-    background-color: aqua;
-    min-height: 100px;
-    margin: 0 auto;
-}
 
-.mob-wrapper {
-    color: white;
+.highlight {
+    font-weight: 700;
 }
-
-.burger-menu {
-    width: 48px;
-}
-/* tiver que colocar essa width para a aparecer a imagem */
 
 .mob-wrapper {
     display: none;
 }
-/* sandwich menu out of desktop */
-
 
 
 
 /* Tablet View */
 @media (max-width: 768px){
-
-    header .logo {
-        font-size: 1.6em;
-    }
     
-    
-    .col {
-        width: 45%;
-    }
-
-    .hide-desktop-only {
-        display: block;
-    }
-
-    .box-container {
-        padding-top: 40px;
-    }
- 
-    .header-container {
-        position: relative;
-    }
- 
-    nav  {
-        display: none;
-    }
-    /* burger menu, tira o nav do header quando diminui */
-
-    .mob-wrapper {
-        display: block;
-        padding-right: 30px;
-    }
-    
-    .mob-nav {
-        display: none;
-        position: absolute;
-        padding-top: 10px;
-    }
-
-    .navButton {
-        display: block;
-        text-decoration: none;
-        margin-left: -60px;
-        padding: 15px 30px;
-        color: white;
-        background-color: coral;
-        border: 1px solid white;
-        text-align: center;
-    }
+.col {
+    width: 45%;
 }
 
-/* i stopped ate min 16:05 */
+.hide-desktop-only {
+    display: block;
+}
 
+
+.header-container {
+    position: relative;
+}
+
+.container {
+    padding-top: 40px;
+}
+
+nav {
+    display: none;
+}
+
+nav a {
+    display: block;
+   }
+
+.logo {
+    padding: 40px 0; 
+}
+
+.mybutton {
+    margin-left: 0;
+}
+
+.mob-wrapper {
+    display: block;
+    padding-right: 30px;
+}
+
+.mob-nav {
+    display: none;
+    position: absolute;
+    padding-top: 10px;
+}
+
+.navbutton {
+    display: block;
+    background-color: coral;
+    padding: 15px 30px;
+    margin-left: -70px;
+    text-align: center;
+}
+
+}
 
 
 
@@ -170,17 +145,15 @@ footer {
     
     .col {
         width: 100%;
-    } 
-
-    .hide-desktop-only {
-        display: block;
-    }
-
-    .header-container {
-        position: relative;
     }
     
+
+    .hide-mobile {
+        display: none;
+    }
+
+
+
+
 }
-
-
 
