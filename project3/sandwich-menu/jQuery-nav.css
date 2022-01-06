@@ -1,0 +1,12 @@
+img {
+    height: 100px;
+    width: 100px;
+}
+
+.mobile-nav {
+    display: none;
+}
+
+/* .toggle-nav {
+    display: none;
+} */
