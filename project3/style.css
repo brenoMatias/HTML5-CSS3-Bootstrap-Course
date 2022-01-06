@@ -18,7 +18,7 @@ body {
 }
 
 .header-container {
-    background-color:gray;
+    background-color:rgb(230, 15, 15);
     height: 50px;
     min-height: 100px;
     margin-bottom: 60px;
