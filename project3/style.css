@@ -23,7 +23,7 @@ a {
 }
 
 .header-container {
-    background-color: rgb(241, 11, 11);
+    /* background-color: rgb(241, 11, 11); */
     min-height: 100px;
     position: fixed;
     width: 100%;
@@ -31,15 +31,22 @@ a {
 }
 
 header {
-    max-width: 1024px;
     /* background-color: blueviolet; */
     min-height: 100px;
+
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    position: fixed;
+    background-color: rgba(231, 14, 14, 0.938);
+    width: 100%;
+
 }
 
+span {
+    font-size: 2em;
+}
 .col {
     width: 30%;
     max-height: 20em;
@@ -60,7 +67,7 @@ header {
 
 .col img {
     width: 100%;
-    height: auto;
+    height: 200px;
     border-radius: 40px;
 } 
 
@@ -87,7 +94,8 @@ header {
 .mob-nav-1 {
     display: flex;
     width: 200px;
-    justify-content: space-between
+    justify-content: space-between;
+    margin-right: 150px;
 }
 
 i {
@@ -99,13 +107,16 @@ i {
 /* Tablet View */
 @media (max-width: 768px){
     
-    .burgermenu {
-        /* position: fixed; */
+    span {
+        font-size: 1.5em;
+        margin-left: 0px;
+
     }
      
     .mob-wrapper {
         margin-left: 80%;
-        position: absolute;
+        position: fixed;
+        z-index: 999;
     }
     
 .col {
@@ -151,6 +162,7 @@ nav a {
     /* margin-left: - ; */
 }
 
+
 .mob-nav-1 {
     display: none;
     position: absolute;
@@ -185,8 +197,10 @@ nav a {
     .hide-mobile {
         display: none;
     }
-
-
+     
+    span {
+        font-size: 1em;
+    }
 }
 
 .toggle-nav-front {
