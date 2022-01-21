@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About us</title>
+    <meta name="description" content="lalal">
+    <link rel="stylesheet" href="css-reset.css">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Bakbak+One&family=Playfair+Display:ital,wght@0,400;1,500;1,900&display=swap');
+    </style>
+    <script src="https://kit.fontawesome.com/3eee73e60c.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="container">
+        <header class="mainHeader">
+            <div class="logo">
+                <a href="index.html"> <img src="images/logo-roar-bikes.svg" alt="lion logo">
+             </div></a> 
+
+            <nav> 
+                <div class="navbutton">
+                    <a href="#">Book Online</a>
+        
+                    <div class="dropdown-box">
+                        <div class="navbutton">
+                            <a href="#">Onsite Sevices</a>
+                        </div>
+                        <div class="navbutton">
+                            <a href="#">Callback</a>
+                        </div>
+                        <div class="navbutton">
+                            <a href="#">Item 3</a>
+                        </div>
+                    </div>       
+                </div>
+
+                <div class="navbutton">
+                    <a href="#">About </a>
+                </div>
+
+                <div class="navbutton">
+                    <a href="contact-us.html"> Contact</a>
+                </div>            
+            </nav>             
+        </header>
+
+        <div class="main2">
+            <h1> Contact Us </h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque consequuntur blanditiis obcaecati rem est, hic tempora molestias at, culpa porro possimus ratione natus cupiditate laudantium ipsa ad mollitia illo quis!</p>
+
+
+        <form action="mail.php" method="post">             
+              <div class="inputwrapper">
+                <label for="name" class="newline">First Name</label>
+                <input type="text" name="name" id="name" >
+            </div>
+             
+            <div class="inputwrapper"> 
+                <label for="email" class="newline"> Email</label>
+                <input type="email" name="email" id="email">
+            </div>
+
+            <div class="inputwrapper"> 
+               <textarea name="message" id="message" cols="100"
+               rows="10" placeholder="Your message here"></textarea>
+            </div>
+
+            <div class="inputwrapper">
+                <input type="checkbox" name="email-sub"
+                id="email-sub" value="yes=sign-me-up">
+                <label for="email-sub">Sign Up for Email </label>
+            </div>
+
+            <div class="inputwrapper">
+                <p>How would you like do be contacted?</p>
+                <input type="radio" name="contact-pref"
+                id="phoneRadio">
+                <label for="phoneRadio">Phone <label>
+
+
+                <input type="radio" name="contact-pref"
+                id="emailRadio" value="email">
+                <label for="emailRadio">Email <label>
+            </div>
+
+            <div class="inputwrapper">
+                <p>What is your count?</p>
+                <select name="county" id="county">
+                    <option value="Limerick">Limerick</option>
+                    <option value="Sonserina">Sonserina<option>
+                    <option value="Test">Test<option>
+
+                    <input type="date" name="" id="">
+                </select>
+            </div>
+
+            <input type="submit" value="Submit" id="submit" class="myButton">
+
+ 
+        </form>
+
+
+
+        </div>
+
+        <div class="cards">  
+            <div class="card1">
+                <a href="#">   
+                    <i class="fas fa-bicycle"></i>
+                    <h2>Book Online</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti nemo cumque odit. Nostrum, et ducimus?
+                    </p>
+                </a>
+            </div>
+            <div class="card2">
+                <a href="#">   
+                    <i class="fas fa-cog"></i>
+                    <h2>Service Types</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti nemo cumque odit. Nostrum, et ducimus?
+                    </p>
+                </a>
+            </div>
+            <div class="card3">
+                <a href="#"> 
+                    <i class="fas fa-phone-alt"></i>
+                    <h2>Call for Advice</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti nemo cumque odit. Nostrum, et ducimus?
+                    </p>
+                </a>
+            </div>
+        </div> 
+
+    
+</body>
+</html>

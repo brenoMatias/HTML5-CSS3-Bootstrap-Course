@@ -1,0 +1,324 @@
+/* html {
+    height: 100%;
+} */
+
+/* height 100% so quando a tela for muito pequena */
+
+
+html {
+    background-image: linear-gradient(#FC5E55, #FA4083) ;
+}
+
+body {
+    background-image: url(images/image-lion-background.png);
+    background-position: top center;
+    background-repeat: no-repeat;
+    color: rgb(252, 244, 244);
+    font-size: 1.25em;
+}
+
+/* https://www.grabient.com/ 
+gradients*/
+
+.container {
+    width: 1024px;
+    min-height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Bakbak One', cursive;
+    font-size: 1.5rem;
+
+}
+
+/* min-hight: min you can go bu it can get 
+bigger if the content needs it */
+/* It prevents the used value of the height property from becoming smaller than the value specified for min-height */
+
+
+.mainHeader {
+    display: flex;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgb(228, 196, 196);
+    justify-content: space-between;
+    align-items: center;
+
+
+}
+
+/* header {
+    
+    display: flex;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    min-height: 100px;
+    align-items: center;
+    border-bottom: 1px solid grey;
+} */
+
+main {
+    min-height: 300px;
+    display: flex;
+    align-items: center;
+}
+
+.main2 {
+    min-height: 300px;
+    padding-top: 50px;
+    align-items: center;
+}
+
+.main2 h1 {
+    font-size: 2.5em;
+    padding-bottom: 40px;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.card1 {
+    background-image: url(images/image-background-card1.jpg);
+    background-size: cover;
+    background-position: bottom;
+    min-height: 250px;
+    width: 30%;
+}
+.card2 {
+    background-image: url(images/image-background-card2.jpg);
+    background-size: cover;
+    background-position: bottom;
+    min-height: 250px;
+    width: 30%;
+}
+
+.card3 {
+    background-image: url(images/image-background-card3.jpg);
+    background-size: cover;
+    background-position: bottom;
+    min-height: 250px;
+    width: 30%;
+}
+.cards h2 {
+    font-size: 1.9em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 20px;
+}
+
+.cards p {
+     font-size: 0.85em;
+     line-height: 1.2em;
+     margin-top: 10px;
+}
+
+.card1, .card2, .card3 {
+    padding: 30px 30px 30px 30px;
+    box-sizing: border-box;
+    border-radius: 40px;
+    box-shadow: 1px 1px 5px rgb(233, 224, 224);
+}
+
+.herobox1 {
+    /* font-family: 'Bakbak One', cursive; */
+    width: 50%;
+    min-height: 30px;
+    flex: 2;    
+}
+
+.herobox2 {
+    width: 50%;
+    min-height: 30px;
+    flex: 1;
+}
+
+.herobox2 img {
+    border-radius: 10px;
+}
+
+/*** heroes= flex of child only works if the flex display
+in is active in the parent node too*/
+
+
+h1 {
+    text-shadow: 0px 3px 3px black;
+
+}
+
+.herobox1 h1 {
+    font-size: 2em;
+    
+}
+
+.myButton {
+    font-family:'Courier New', Courier, monospace;
+    color:#FA4083;
+    text-decoration: none;
+    background-color: white;
+    padding: 11px 25px;
+    display: inline-block;
+    margin-top: 10px;
+    border-radius: 10px 10px 40px 0px;
+    box-shadow: 10px 10px 10px black;
+}
+
+.myButton:hover {
+    background-color: aqua;
+}
+/* hover state of this button
+hover is a state */
+/* CSS Pseudo-classes */
+
+.navLinks {
+    font-size: 0.75em;
+}
+
+.herobox1 p {
+    line-height: 1.25em;
+    font-size: 0.9em;
+    padding-bottom: 0.5em;
+    padding-top: 0.5em;
+}
+
+.cards i {
+    font-size: 100px;
+}
+
+/* justify-content and align-items are similar in their behviour, the difference being that justify-content works on the the main axis while align-items works on the cross axis */
+
+.cards a {
+    color: white;
+    text-decoration: none;
+}
+
+.navbutton {
+    padding: 10px;
+    margin-left: 0px;
+    /* box-shadow: 1px 1px 1px 1px black; */
+    background-color: transparent;
+    color: rgb(104, 25, 25);
+    border: 1px solid rgb(247, 244, 244);
+    display: inline;
+    margin-left: 10px;
+    position: relative;
+
+}
+
+.navbutton a {
+    text-decoration: none;
+    color: white;
+    
+}
+
+.testimonials {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.tbox {
+    width: 47%;
+    padding: 50px;
+    border: 1px solid white;
+    box-sizing: border-box;
+    margin-top: 50px;
+}
+
+/* .herobox1 :first-child {
+    color: aqua;
+} */
+
+
+.tbox :last-child {
+    font-size: .8em;
+    margin-top: 20px;
+    padding-left: 30px;
+}
+
+
+.navbutton {
+    background-color: none;
+    padding: 11px 25px;
+    width: 100px;
+    text-align: center;
+    display: inline-block;
+    position: relative;
+    font-size: 0.7em;
+}
+
+/* This turns the drop down off when not used */
+.dropdown-box {
+    display: none;
+    position: absolute;
+    z-index: 99;
+    padding-top: 20px;
+    margin-left: -30px;
+}
+
+
+/* This class turns the dropdown menu on during hover */
+.navbutton:hover .dropdown-box {
+    display: block;
+}
+
+.dropdown-box .navbutton {
+    background-color: rgb(245, 247, 247);
+    border: 1px solid black;
+
+}
+
+.dropdown-box .navbutton:hover {
+    background-color: rgb(216, 29, 204);
+    transition-duration: 5s;
+}
+
+.dropdown-box .navbutton a {
+    color: black;
+}
+
+
+/* css about us page */
+
+#submit {
+    min-height: 30px;
+}
+
+.inputwrapper {
+    margin-top: 0px;
+}
+
+form {
+    margin-top: 50px;
+}
+
+form textarea {
+    margin-top: 20px;
+}
+
+#email-sub {
+    margin-top: 30px;
+}
+
+.inputwrapper p {
+    margin-top: 40px;
+}
+
+
+input[type=text], input[type=email], textarea {
+    padding: 12px 20px;
+    width: 100%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 0.85em;
+    box-sizing: border-box;
+
+}
+
+.newline {
+     display: block;
+     margin-bottom: 10px;
+     margin-top: 30px;
+
+}

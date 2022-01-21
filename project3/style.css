@@ -1,0 +1,186 @@
+/* Global View aka Desktop View */
+body {
+    margin: 0;
+    font-family: 'Asap', sans-serif;
+    color: rgb(250, 248, 248);
+    background-color: black;
+}
+
+.box-container {
+    background-color: rgba(2, 2, 2, 0.521);
+    min-height: 100px;
+    max-width: 1024px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-top: 150px;
+}
+
+.header-container {
+    background-color:rgb(230, 15, 15);
+    height: 50px;
+    min-height: 100px;
+    margin-bottom: 60px;
+    position: fixed;
+    width: 100%;
+   
+}
+
+header {
+    max-width: 1024px;
+    /* background-color: aqua; */
+    min-height: 100px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  
+}
+
+nav a {
+    text-decoration: none;
+    color: #fcf3f3;
+    padding: 20px 20px;
+    border: 1px solid white;
+    margin-left: 10px;
+}
+
+header .logo {
+    font-size: 2em;
+}
+
+.col {
+    width: 30%;
+    margin-bottom: 30px;
+    background-color: aqua;
+}
+
+.col p {
+    color:rgb(7, 0, 0);
+    font-size: 0.875em;
+    padding: 20px 20px;
+    line-height: 1.5em;
+}
+
+.hide-desktop-only {
+    display: none;
+}
+
+
+.col img {
+    width:100%;
+    height: auto;
+}
+
+.col p::first-line {
+    font-weight: bold;
+}
+
+.footer-container {
+    background-color: gray;
+    height: 50px;
+    min-height: 100px;
+    margin-bottom: 60px;
+}
+
+footer {
+    max-width: 1024px;
+    background-color: aqua;
+    min-height: 100px;
+    margin: 0 auto;
+}
+
+.mob-wrapper {
+    color: white;
+}
+
+.burger-menu {
+    width: 48px;
+}
+/* tiver que colocar essa width para a aparecer a imagem */
+
+.mob-wrapper {
+    display: none;
+}
+/* sandwich menu out of desktop */
+
+
+
+
+/* Tablet View */
+@media (max-width: 768px){
+
+    header .logo {
+        font-size: 1.6em;
+    }
+    
+    
+    .col {
+        width: 45%;
+    }
+
+    .hide-desktop-only {
+        display: block;
+    }
+
+    .box-container {
+        padding-top: 40px;
+    }
+ 
+    .header-container {
+        position: relative;
+    }
+ 
+    nav  {
+        display: none;
+    }
+    /* burger menu, tira o nav do header quando diminui */
+
+    .mob-wrapper {
+        display: block;
+        padding-right: 30px;
+    }
+    
+    .mob-nav {
+        display: none;
+        position: absolute;
+        padding-top: 10px;
+    }
+
+    .navButton {
+        display: block;
+        text-decoration: none;
+        margin-left: -60px;
+        padding: 15px 30px;
+        color: white;
+        background-color: coral;
+        border: 1px solid white;
+        text-align: center;
+    }
+}
+
+/* i stopped ate min 16:05 */
+
+
+
+
+/* Mobile View */
+@media (max-width: 400px){
+    
+    .col {
+        width: 100%;
+    } 
+
+    .hide-desktop-only {
+        display: block;
+    }
+
+    .header-container {
+        position: relative;
+    }
+    
+}
+
+
+
